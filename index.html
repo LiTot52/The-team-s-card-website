@@ -4,21 +4,164 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="Islam Gegraev, Yura Slukin, Bogdan Kulyabtsev">
 	<link rel="stylesheet" href="./fonts/fonts.css">
 	<link rel="stylesheet" href="./styles/style.css">
 	<title>Сайт визитка команды</title>
 </head>
 
 <body>
-	<header class="header">
-		<nav>
-			<ul>
-				<li>Home</li>
-				<li>Favorites</li>
-				<li></li>
-			</ul>
-		</nav>
-		</head>
+	<nav class="nav">
+	<div class="nav-logo">Favorites</div>
+		<ul class="nav-link">
+			<li class="nav-link-items"><a href="#team">Участники</a></li>
+			<li class="nav-link-items"><a href="#about">О проекте</a></li>
+		</ul>	
+	</nav>
+		
+	<section class="main__section">
+		<div class="main__tag">Для пркатической работы - 2026</div>
+		<h1 class="main__title">Мы <span>делаем</span> проекты</h1>
+		<p class="main__subtitle">Небольшая 
+			команда из трёх человек. 
+			Здесь собраны наши контакты 
+			и ссылки — 
+			найдите нас где угодно.</p>
+	</section>
+
+	<section class="team__section" id="team">
+		<div class="section-label">Участники команды</div>
+		
+		<div class="team__card">
+			<div class="Islam__Gegraev">
+				<div class="card__number">01</div>
+				<div class="card__avatar">
+					<img src="---" alt="Геграев Ислам">
+				</div>
+				<div class="name">
+					<div class="card__name">Геграев<br> Ислам</div>
+					<div class="card__role">Организаор/Разработчик</div>
+				</div>
+
+				<p class="card__title">Тут 18 лет, студент Северо-Кавказского 
+					федерального университета, направление - программная 
+					инженерия. Увлекаюсь фронтенд-разработкой: люблю 
+					работать с UI, вёрсткой и превращать дизайн в рабочий 
+					код. Стараюсь писать чистый и аккуратный 
+					код - считаю, что хороший интерфейс должен 
+					быть не только красивым, но и удобным. </p>
+
+				<div class="card__links">
+					<a href="https://github.com/LiTot52" class="link-btn">
+						<span>GitHub</span>
+						<span class="link__icon">↗</span>
+					</a>
+
+					<a href="https://t.me/LiTot1111" class="link-btn">
+						<span>Telegram</span>
+						<span class="link__icon">↗</span>
+					</a>
+				</div>
+			</div>
+
+			<div class="Yura__Slukin">
+				<div class="card__number">02</div>
+				<div class="card__avatar">
+					<img src="---" alt="юра">
+				</div>
+				<div class="name">
+					<div class="card__name">Слукин<br> Юра</div>
+					<div class="card__role">Разработчик/Дизайнер</div>
+				</div>
+
+				<p class="card__title">18 лет, студент Северо-Кавказского 
+					федерального университета, направление - 
+					программная инженерия. В команде отвечаю 
+					за разработку и дизайн - люблю смотреть 
+					на проект как с технической стороны, так и с 
+					визуальной. Считаю, что хороший продукт рождается на стыке
+					красивого интерфейса и чистого кода.</p>
+
+				<div class="card__links">
+					<a href="https://github.com/sayl0r" class="link-btn">
+						<span>GitHub</span>
+						<span class="link__icon">↗</span>
+					</a>
+
+					<a href="https://t.me/sayl0r" class="link-btn">
+						<span>Telegram</span>
+						<span class="link__icon">↗</span>
+					</a>
+				</div>
+			</div>
+
+			<div class="Bogdan__Kulyabtsev">
+				<div class="card__number">03</div>
+				<div class="card__avatar">
+					<img src="---" alt="Кулябцев Богдан">
+				</div>
+				<div class="name">
+					<div class="card__name">Кулябцев<br> Богдан</div>
+					<div class="card__role">Контент менеджер/Разработчик</div>
+				</div>
+
+				<p class="card__title">22 года, студент Северо-Кавказского 
+					федерального университета, направление - программная 
+					инженерия. В команде совмещаю роль контент-менеджера и 
+					разработчика - слежу за тем, чтобы содержание проекта 
+					было понятным и структурированным, и при этом участвую 
+					в написании кода. Считаю, что хороший проект начинается 
+					с правильно выстроенного контента.</p>
+
+				<div class="card__links">
+					<a href="#" class="link-btn">
+						<span>GitHub</span>
+						<span class="link__icon">↗</span>
+					</a>
+
+					<a href="https://t.me/DotaReborn2" class="link-btn">
+						<span>Telegram</span>
+						<span class="link__icon">↗</span>
+					</a>
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+
+
+	<section class="project__section" id="about">
+    <div class="project__section__main-text">
+        <h2>О <span>проекте</span></h2>
+    </div>
+
+    <div class="project__section__main-description">
+        <p>Описание</p>
+        <p>Сайт-визитка команды из трёх студентов СКФУ,
+        созданный в рамках практической работы по
+        веб-разработке. Каждый участник —
+        со своей ролью и зоной ответственности.</p>
+    </div>
+
+    <div class="project__section__technologies">
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>GitHub</span>
+    </div>
+
+    <div class="project__section__goal">
+        <p>Цель</p>
+        <p>Получить опыт командной разработки,
+        попрактиковаться в вёрстке и создать общую
+        точку где можно найти каждого из нас.</p>
+    </div>
+</section>
+
+
+	<footer class="footer">
+		© 2026 Favorites - Практическая работа, СКФУ
+	</footer>
+
 </body>
 
 </html>
