@@ -167,15 +167,17 @@ body {
 .card__title {
 	grid-column: 2; 
 	grid-row: 1 / 5;
-    font-size: 15px;
-    line-height: 1.8;'Oswald', sans-serif;
-    color: rgba(255, 255, 255, 0.5);
-    align-self: center;
+  font-size: 15px;
+  line-height: 1.8;'Oswald', sans-serif;
+  color: rgba(255, 255, 255, 0.5);
+  align-self: center;
 }
+
 .card__links {
 	grid-column: 3; 
 	grid-row: 1 / 5;
 	display: flex;
+	padding-top: 25%;
 	flex-direction: column;
 	gap: 20px;
 }
